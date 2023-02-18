@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+/* navbar */
+nav {
+  height: 60px;
+  border-bottom: 2px solid black;
+}
+.nav-logo {
+  float: left;
+  padding-top: 4px;
+}
+.nav-menu {
+  line-height: 30px;
+}
+.nav-menu ul li {
+  display: inline;
+  float: right;
+  margin: 15px 0px;
+}
+.nav-menu a {
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: rgb(212, 152, 42);
+}
+.nav-menu a:hover {
+  background-color: rgb(212, 152, 42);
+  color: white;
+}
