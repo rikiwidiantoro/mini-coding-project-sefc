@@ -47,19 +47,20 @@ nav {
 header {
   padding: 70px 0px 20px;
   border-bottom: 2px solid black;
-  background-image: url("img/city1.jpg");
+  background-image: url("img/city2.jpg");
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 -50px;
+  background-position: 0 -120px;
+  color: white;
 }
 .header-judul {
   margin: 10px 0 20px;
   line-height: 1.8em;
 }
-.header-gambar img {
+/* .header-gambar img {
   max-width: 100%;
-}
+} */
 
 
 /* headquarter */
