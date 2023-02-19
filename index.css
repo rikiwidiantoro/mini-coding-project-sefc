@@ -5,11 +5,18 @@ body {
   max-width: 1200px;
   margin: 0px auto;
 }
+h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
 
 /* navbar */
 nav {
   height: 60px;
   border-bottom: 2px solid black;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 .nav-logo {
   float: left;
@@ -33,4 +40,77 @@ nav {
 .nav-menu a:hover {
   background-color: rgb(212, 152, 42);
   color: white;
+}
+
+
+/* header */
+header {
+  padding: 70px 0px 20px;
+  border-bottom: 2px solid black;
+  background-image: url("img/city1.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -50px;
+}
+.header-judul {
+  margin: 10px 0 20px;
+  line-height: 1.8em;
+}
+.header-gambar img {
+  max-width: 100%;
+}
+
+
+/* headquarter */
+.headquarter {
+  padding: 20px 0px;
+}
+.headquarter-kota {
+  margin: 40px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0px 100px;
+}
+.bulat {
+  width: 25%;
+}
+.bulat img {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0px auto 5px;
+}
+.headquarter-quote {
+  width: 50%;
+  margin: 0 auto;
+}
+.headquarter-quote marquee {
+  padding: 10px 0px;
+}
+
+
+/* footer */
+footer {
+  height: 60px;
+  line-height: 60px;
+  border-top: 2px solid black;
+  font-size: 13px;
+  font-style: italic;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-sosmed {
+  margin-top: 7px;
+}
+.footer-sosmed a {
+  margin: 0 15px;
+}
+.footer-sosmed a i:hover {
+  font-size: 30px;
 }
