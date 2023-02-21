@@ -17,6 +17,14 @@ main {
 }
 .main-form table input[name="submit"] {
   width: 100%;
+  background-color: rgb(212, 152, 42);
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.main-form table input[name="submit"]:hover {
+  background-color: rgb(179, 123, 20);
+  cursor: pointer;
 }
 .main-data {
   margin: 0px auto;

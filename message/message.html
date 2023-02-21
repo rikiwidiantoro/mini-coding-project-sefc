@@ -43,7 +43,7 @@
       </div>
       <div class="main-pesan">
         <div class="main-form">
-          <form action="">
+          <form name="message-form" onsubmit="kirim(); return false">
             <table>
               <tbody>
                 <tr>
@@ -85,14 +85,14 @@
             <tbody>
               <tr>
                 <td><label for="waktu">Waktu</label></td>
-                <td>:
-                  <p></p>
+                <td>
+                  <span id="waktu"></span>
                 </td>
               </tr>
               <tr>
                 <td><label for="nama">Nama</label></td>
                 <td>:
-                  <p></p>
+                  <span id="nama2"></span>
                 </td>
               </tr>
               <tr>
@@ -144,6 +144,8 @@
   </footer>
   <!-- footer -->
 
+
+  <script src="message.js"></script>
 
 </body>
 </html>
