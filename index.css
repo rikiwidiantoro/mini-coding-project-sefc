@@ -115,3 +115,8 @@ footer .container {
 .footer-sosmed a i:hover {
   font-size: 30px;
 }
+footer .footer-program {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1em;
+}
