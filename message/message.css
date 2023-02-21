@@ -12,6 +12,9 @@ main {
 .main-pesan {
   display: flex;
 }
+.main-form {
+  width: 50%;
+}
 .main-form table td {
   padding: 10px;
 }
@@ -26,13 +29,15 @@ main {
   background-color: rgb(179, 123, 20);
   cursor: pointer;
 }
-.main-data {
+/* .main-data {
   margin: 0px auto;
-}
+} */
 .main-data table td {
-  padding: 10px;
+  padding: 12px;
 }
 
+
+/* footer */
 footer {
   position: fixed;
   width: 100%;

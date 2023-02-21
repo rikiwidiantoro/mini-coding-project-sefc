@@ -1,0 +1,40 @@
+/* navbar dan footer sama dengan index.css */
+
+
+/* main */
+main {
+  padding: 80px 0px 20px;
+}
+.main-judul {
+  margin: 10px 0px 20px;
+  line-height: 1.8em;
+}
+.main-judul h1 {
+  text-align: left;
+}
+.main-judul p {
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+.main-isi-portofolio img {
+  margin: 0px auto 40px;
+}
+.main-isi-quote {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: right;
+  line-height: 1.8em;
+}
+
+
+
+/* footer */
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
