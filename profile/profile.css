@@ -45,3 +45,26 @@ footer {
   left: 0;
   bottom: 0;
 }
+
+
+
+/* responsive mobile */
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 20px 0px 20px;
+    font-size: 12px;
+  }
+  .main-judul h1 {
+    font-size: 18px;
+  }
+  .main-foto span {
+    font-size: 11px;
+  }
+  .main-about {
+    padding: 20px 5%;
+  }
+
+  footer {
+    position: relative;
+  }
+}

@@ -28,6 +28,9 @@ main {
   position: absolute;
   cursor: pointer;
 }
+.main-isi-portofolio .fas:hover {
+  opacity: .7;
+}
 .main-isi-portofolio .fa-arrow-alt-circle-left {
   left: 15%;
   top: 50%;
@@ -46,11 +49,35 @@ main {
 }
 
 
-
 /* footer */
 footer {
   position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
+}
+
+
+
+/* responsive mobile */
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 20px 0px 20px;
+    font-size: 12px;
+  }
+  .main-judul h1 {
+    font-size: 18px;
+  }
+  .main-isi-portofolio .fa-arrow-alt-circle-left {
+    left: 5%;
+    top: 50%;
+  }
+  .main-isi-portofolio .fa-arrow-alt-circle-right {
+    right: 5%;
+    top: 50%;
+  }
+
+  footer {
+    position: relative;
+  }
 }

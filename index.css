@@ -1,5 +1,6 @@
 body {
   font-family: Verdana, sans-serif;
+  background-color: whitesmoke;
 }
 .container {
   max-width: 1200px;
@@ -16,30 +17,42 @@ nav {
   border-bottom: 2px solid black;
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: #fff;
+}
+nav .container {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
 }
 .nav-logo {
-  float: left;
   padding-top: 4px;
 }
 .nav-menu {
   line-height: 30px;
 }
+.nav-menu ul {
+  display: flex;
+  flex-direction: row;
+}
 .nav-menu ul li {
-  display: inline;
-  float: right;
   margin: 15px 0px;
 }
 .nav-menu a {
-  border: 1px solid black;
   border-radius: 2px;
+  border: 1px solid black;
   padding: 5px 20px;
   text-decoration: none;
-  color: rgb(212, 152, 42);
+  /* color: #fede3e; */
+
+  background-color: #fff;
+  color: black;
 }
 .nav-menu a:hover {
-  background-color: rgb(212, 152, 42);
-  color: white;
+  /* background-color: #fede3e; */
+  /* color: black; */
+
+  background-color: #fede3e;;
+  color: #fff;
 }
 
 
@@ -100,6 +113,7 @@ footer {
   border-top: 2px solid black;
   font-size: 13px;
   font-style: italic;
+  background-color: #fff;
 }
 footer .container {
   display: flex;
@@ -119,4 +133,97 @@ footer .footer-program {
   font-style: normal;
   font-weight: 500;
   font-size: 1.1em;
+}
+
+
+
+/* responsive mobile */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0px 2%;
+  }
+
+
+  nav {
+    height: auto;
+    position: relative;
+  }
+  nav .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-menu {
+    margin-top: 5px;
+  }
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
+  }
+  .nav-menu ul li {
+    margin: 0px auto;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #fff;
+    color: black;
+  }
+  .nav-menu a {
+    border: none;
+  }
+  .nav-menu ul li:hover {
+    /* background-color: #fede3e; */
+    /* color: black; */
+  
+    background-color: #fede3e;;
+    color: #fff;
+  }
+
+
+  header {
+    padding: 10px 0px 20px;
+    height: 400px;
+    background-position: 0 0;
+  }
+  .header-judul h1, .headquarter-judul h1 {
+    font-size: 18px;
+  }
+  .header-judul p {
+    font-size: 12px;
+  }
+
+
+  .headquarter-kota {
+    /* margin: 40px 0px 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    /* text-align: center; */
+    /* padding: 0px 100px; */
+  }
+  .bulat {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+  .headquarter-quote {
+    width: 75%;
+    font-size: 12px;
+  }
+
+
+  footer {
+    height: auto;
+    line-height: 40px;
+    border-top: 2px solid black;
+    font-size: 11px;
+    font-style: italic;
+    background-color: #fff;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
