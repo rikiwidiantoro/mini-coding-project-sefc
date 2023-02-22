@@ -9,7 +9,7 @@
   <!-- css reset -->
   <link rel="stylesheet" href="../reset-css.css">
 
-  <!-- index.css -->
+  <!-- css index & message sendiri -->
   <link rel="stylesheet" href="../index.css">
   <link rel="stylesheet" href="message.css">
 
@@ -51,26 +51,26 @@
                 <tr>
                   <td><label for="nama">Nama</label></td>
                   <td>:
-                    <input type="text" name="nama" id="nama">
+                    <input type="text" name="nama" id="nama" required>
                   </td>
                 </tr>
                 <tr>
                   <td><label for="ttl">Tanggal Lahir</label></td>
                   <td>:
-                    <input type="date" name="ttl" id="ttl">
+                    <input type="date" name="ttl" id="ttl" required>
                   </td>
                 </tr>
                 <tr>
                   <td><label for="gender">Jenis Kelamin</label></td>
                   <td>:
-                    <input type="radio" name="gender" id="laki-laki" value="Laki-laki"><label for="laki-laki">Laki-laki</label>
-                    <input type="radio" name="gender" id="perempuan" value="Perempuan"><label for="perempuan">Perempuan</label>
+                    <input type="radio" name="gender" id="laki-laki" value="Laki-laki" required><label for="laki-laki">Laki-laki</label>
+                    <input type="radio" name="gender" id="perempuan" value="Perempuan" required><label for="perempuan">Perempuan</label>
                   </td>
                 </tr>
                 <tr>
                   <td style="position: absolute;"><label for="pesan">Pesan</label></td>
                   <td>
-                    <textarea name="pesan" id="pesan" cols="30" rows="5"></textarea>
+                    <textarea name="pesan" id="pesan" cols="30" rows="5" required></textarea>
                   </td>
                 </tr>
                 <tr>
@@ -85,7 +85,7 @@
         <div class="main-data">
           <table>
             <tbody>
-              <tr>
+              <tr class="td-waktu">
                 <td><label for="waktu">Waktu</label></td>
                 <td>
                   <span id="waktu"></span>
@@ -147,6 +147,7 @@
   <!-- footer -->
 
 
+  <!-- file message javascript -->
   <script src="message.js"></script>
 
 </body>

@@ -20,6 +20,13 @@ function kirim() {
   let pesan = document.forms["message-form"]["pesan"].value;
 
 
+  // validasi form ke-2 | validasi form pertama memakai atribut required pada tag input form
+  if( nama === "" || ttl === "" || gender === "" || pesan === "" ) {
+    alert("Input form tidak boleh kosong!");
+    return false;
+  }
+
+
   // DOM element lalu diberi isi dari form
   document.getElementById("waktu").innerText = waktuIni;
   document.getElementById("nama2").innerText = nama;

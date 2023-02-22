@@ -9,12 +9,15 @@
   <!-- css reset -->
   <link rel="stylesheet" href="../reset-css.css">
 
-  <!-- index.css -->
+  <!-- css index & portofolio sendiri -->
   <link rel="stylesheet" href="../index.css">
   <link rel="stylesheet" href="portofolio.css">
 
   <!-- font awesome => icon -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <!-- file portofolio javascript -->
+    <!-- <script src="portofolio.js"></script> -->
 </head>
 <body>
 
@@ -49,6 +52,8 @@
           <img src="https://rikiwidiantoro.github.io/img/sertifikat/Front-End%20Web.jpg" width="500" class="img-list">
           <img src="https://rikiwidiantoro.github.io/img/sertifikat/dts-fga1-frontend-progate-2022-1.jpg" width="500" class="img-list">
           <img src="https://rikiwidiantoro.github.io/img/sertifikat/vix-fullstack%20dev%20laravel-investree%20sep2022.jpg" width="500" class="img-list">
+          <i class="fas fa-arrow-alt-circle-left fa-3x" onclick="return plusSlide(-1);"></i>
+          <i class="fas fa-arrow-alt-circle-right fa-3x" onclick="return plusSlide(+1);"></i>
         </div>
         <div class="main-isi-quote">
           <p>Jangan terlalu banyak dipikirin, lakuin aja. Entar tau2 juga udah selesai. Semangatt!</p>
@@ -83,27 +88,8 @@
   <!-- footer -->
 
 
-  <script>
-    let slideIndex = 3;
-    showImg(slideIndex);
-    
-    function showImg(n) {
-      let i;
-      let imgList = document.getElementsByClassName("img-list");
-      console.log(imgList.length);
-      if (n > imgList.length) {
-        slideIndex = 1
-      } else if (n < 1) {
-        slideIndex = imgList.length
-      }
-
-      for( i = 0; i < imgList.length; i++ ) {
-        imgList[i].style.display = "none";
-      }
-
-      imgList[slideIndex - 1].style.display = "block";
-    }
-  </script>
+  <!-- file portofolio javascript -->
+  <script src="portofolio.js"></script>
 
 </body>
 </html>

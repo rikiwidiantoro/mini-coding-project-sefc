@@ -35,6 +35,9 @@ main {
 .main-data table td {
   padding: 12px;
 }
+.main-data .td-waktu {
+  border-bottom: 1px solid black;
+}
 
 
 /* footer */

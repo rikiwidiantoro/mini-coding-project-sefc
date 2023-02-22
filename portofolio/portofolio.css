@@ -21,6 +21,22 @@ main {
 .main-isi-portofolio img {
   margin: 0px auto 40px;
 }
+.main-isi-portofolio {
+  position: relative;
+}
+.main-isi-portofolio .fas {
+  position: absolute;
+  cursor: pointer;
+}
+.main-isi-portofolio .fa-arrow-alt-circle-left {
+  left: 15%;
+  top: 50%;
+}
+.main-isi-portofolio .fa-arrow-alt-circle-right {
+  right: 15%;
+  top: 50%;
+}
+
 .main-isi-quote {
   font-family: sans-serif;
   font-weight: 300;
