@@ -97,6 +97,9 @@ header {
   border-radius: 50%;
   margin: 0px auto 5px;
 }
+.bulat img:hover {
+  opacity: .8;
+}
 .headquarter-quote {
   width: 50%;
   margin: 0 auto;
@@ -206,6 +209,10 @@ footer .footer-program {
   .bulat {
     width: 50%;
     margin-bottom: 15px;
+  }
+  .bulat img {
+    width: 110px;
+    height: 110px;
   }
   .headquarter-quote {
     width: 75%;

@@ -68,6 +68,9 @@ footer {
   .main-judul h1 {
     font-size: 18px;
   }
+  .main-isi .main-isi-portofolio img {
+    width: 350px;
+  }
   .main-isi-portofolio .fa-arrow-alt-circle-left {
     left: 5%;
     top: 50%;
