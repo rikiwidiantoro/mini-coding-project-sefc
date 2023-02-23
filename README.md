@@ -1,6 +1,8 @@
 # mini-coding-project-sefc
 
-## Dibuat dengan : 
+link website : https://rikiwidiantoro.github.io/mini-coding-project-sefc/index.html
+
+### Dibuat dengan : 
 - HTML & CSS Native
 - JavaScript
 - fontawesome cdn untuk icon
@@ -9,13 +11,17 @@ sebagai syarat kelulusan Program Software Engineering Fundamental Course Batch 1
 
 ### Screenshot & penjelasan halaman website :
 1. Home Page
-    
+  Pada Home page terdapat NavBar diatas halaman -> dibawahnya terdapat header atau "photo banner" seperti workflow 1 serta ketika website dibuka akan menampilkan pop up untuk mengisi username untuk ditampilkan pada teks heading di header ini -> dibawahnya lagi terdapat Headquarter dengan 4 foto sekaligus nama kote di Indonesia -> lalu di paling bawah terdapat footer yang berisi teks batch mini course ini, copyright, serta akun Github, LinkedIn dan Website Portofolio saya.
+  
 
 2. Profile Page
+  Pada Profile page terdapat NavBar diatas halaman -> ditengah sekaligus isi terdapat perkenalan singkat saya -> lalu dibawah terdapat footer.
 
 3. Portofolio Page
+  Pada Portofolio page terdapat NavBar diatas halaman -> ditengah sekaligus isi terdapat beberapa sertifikat IT saya, bisa di geser dengan fitur slider dengan meng-klik icon panah, lalu dibawah ada quote singkat -> lalu dibawah terdapat footer.
 
 4. Message Page
+  Pada Message page terdapat NavBar diatas halaman -> ditengah sekaligus isi terdapat form yang dapat di isi user dan langsung ditampilkan hasil input user di sampingnya -> lalu dibawah terdapat footer.
 
 
 ## Ketentuan workflow :
