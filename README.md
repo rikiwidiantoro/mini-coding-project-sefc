@@ -19,15 +19,15 @@ sebagai syarat kelulusan Program Software Engineering Fundamental Course Batch 1
 
 2. Profile Page
 > Pada Profile page terdapat NavBar diatas halaman -> ditengah sekaligus isi terdapat perkenalan singkat saya -> lalu dibawah terdapat footer.
-![Home Page](https://github.com/rikiwidiantoro/mini-coding-project-sefc/blob/main/img/screenshot-page/profile.png)
+![Profile Page](https://github.com/rikiwidiantoro/mini-coding-project-sefc/blob/main/img/screenshot-page/profile.png)
 
 3. Portofolio Page
 > Pada Portofolio page terdapat NavBar diatas halaman -> ditengah sekaligus isi terdapat beberapa sertifikat IT saya, bisa di geser dengan fitur slider dengan meng-klik icon panah, lalu dibawah ada quote singkat -> lalu dibawah terdapat footer.
-![Home Page](https://github.com/rikiwidiantoro/mini-coding-project-sefc/blob/main/img/screenshot-page/portofolio.png)
+![Portofolio Page](https://github.com/rikiwidiantoro/mini-coding-project-sefc/blob/main/img/screenshot-page/portofolio.png)
 
 4. Message Page
 > Pada Message page terdapat NavBar diatas halaman -> ditengah sekaligus isi terdapat form yang dapat di isi user dan langsung ditampilkan hasil input user di sampingnya -> lalu dibawah terdapat footer.
-![Home Page](https://github.com/rikiwidiantoro/mini-coding-project-sefc/blob/main/img/screenshot-page/message.png)
+![Message Page](https://github.com/rikiwidiantoro/mini-coding-project-sefc/blob/main/img/screenshot-page/message.png)
 
 
 ## Ketentuan workflow :
@@ -37,8 +37,9 @@ sebagai syarat kelulusan Program Software Engineering Fundamental Course Batch 1
 4. workflow 4 => Welcoming speech -> di halaman Home page menggunakan fungsi prompt(), akan tetapi belum menerapkan Local Storage Browser jadi ketika ganti halaman atau me-refresh akan me-reload sehingga muncul popup fungsi prompt() lagi untuk input username ulang ✅
 5. workflow 5 => Validation form -> di halaman message page ✅
 6. workflow 6 => Responsive Website (Mobile & Dekstop) ✅
-7. workflow 7 => upload Github & deploy Github Pages -> 
-8. workflow 8 => 
+7. workflow 7 => upload Github & deploy Github Pages ✅
+8. workflow 8 => submit URL Github with screenshot of published website ✅
+![submit photo](https://github.com/rikiwidiantoro/mini-coding-project-sefc/blob/main/img/screenshot-page/submit.png)
 
 
 ### problem :
